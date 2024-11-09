@@ -1,0 +1,63 @@
+
+  .navbar {
+    background-color: #BF00FF;
+    font-size: large;
+    font-weight: 400;
+  }
+  .navbar .nav-item {
+    padding-left: 1rem;
+  }
+  .nav-item .active {
+    font-weight: 500;
+  }
+  .carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .carousel .carousel-item .d-block {
+    width: 100%;
+  }
+  .carousel-inner .carousel-control-next-icon span {
+    color: #021780;
+    border-radius: 100%;
+    border-color: black;
+  }
+  .card-body h6 {
+    -webkit-line-clamp: 1 !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  footer {
+    background-color: #BF00FF !important;
+    color: white;
+  }
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      width: 100%;
+      transition-timing-function: ease-out;
+    }
+    .nav-item .btn {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    #input-search {
+      width: 12em;
+    }
+    #banner img {
+      height: 200px;
+      width: min-content;
+    }
+  }
+    .navbar-brand {
+        display: flex;
+        align-items: center; 
+    }
+
+    .logo-img {
+        margin-left:30px
+        margin-right: 20px; 
+    }
+    
